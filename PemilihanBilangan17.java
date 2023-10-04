@@ -5,15 +5,11 @@ public class PemilihanBilangan17{
 
         System.out.print("Masukkan sebuah angka: ");
         int angka = sc.nextInt();
+        String bilangan;
 
-        if (angka % 2 == 0)
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
-        }            
-        else
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
-        }
+        bilangan = (angka % 2 == 0) ? "bilangan genap" : "bilangan ganjil";
+        System.out.println(angka + "adalah" + bilangan);
+
 
     }
 }
