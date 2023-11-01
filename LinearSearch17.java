@@ -23,6 +23,7 @@ public class LinearSearch17 {
             if (arrayInt[j] == key) {
                 hasil = j;
                 System.out.println("Key ada di posisi indeks ke-" + hasil);
+                break;
             } 
         }
         if (hasil == -1) {
