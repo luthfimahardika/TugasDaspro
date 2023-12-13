@@ -1,4 +1,3 @@
-package Praktikum14;
 
 public class Faktorial17 {
     public static int faktorial(int n) {

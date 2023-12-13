@@ -1,4 +1,3 @@
-package Praktikum14;
 
 public class Pangkat17 {
     public static int pangkat(int x, int y) {
@@ -14,8 +13,9 @@ public class Pangkat17 {
 
         for (int i = 1; i <= y; i++) {
             hasil = hasil * x;
+            System.out.print(x + "x");
         }
-
+        System.out.print(1 + "=");
         return hasil;
     }
 
